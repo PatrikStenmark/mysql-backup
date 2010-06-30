@@ -1,0 +1,11 @@
+:mysql_config: /root/mysql-backup/mysql-backup.cnf
+:tables: 
+  - "uber_database"
+:target_dir: "/root/mysql-backup/backups"
+:verbose: true
+:keep_backups: 5
+:s3_access_key_id: SOMEthing
+:s3_secret_access_key: SOMETHINGelse
+:s3_bucket: bucket_of_doom
+:s3: true
+:mysqldump: /usr/local/mysql/bin/mysqldump
